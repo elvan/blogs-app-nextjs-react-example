@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import { Fragment } from 'react';
 
+import Hero from '../components/home-page/hero';
+
 function HomePage(props) {
   return (
     <Fragment>
@@ -11,6 +13,7 @@ function HomePage(props) {
           content='I post about programming and web development.'
         />
       </Head>
+      <Hero />
     </Fragment>
   );
 }
